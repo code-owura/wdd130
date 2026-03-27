@@ -24,6 +24,11 @@ header {
     padding: 10px;
 }
 
+header img {
+    width: 150px;
+    height: auto;
+}
+
 header,
 main,
 footer {
@@ -101,7 +106,7 @@ h1 {
 
 .real h2 {
     grid-column: 1/4;
-    align-items: center;
+    text-align: center;
 }
 
 .real .left {
@@ -114,6 +119,9 @@ h1 {
 
 .real img {
     grid-column: 2/3;
+    width: 90%;
+    height: auto;
+    justify-self: center;
 }
 
 .adventure {
@@ -151,7 +159,8 @@ footer {
 }
 
 footer p {
-    margin: 10px;
+    margin: 0;
+    padding: 0;
 }
 
 .socialmedia {
