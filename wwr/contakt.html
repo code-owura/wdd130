@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts of White Water Rafting</title>
+    <meta name="description"
+      content="The Contact Us page of White Water Rafting provides visitors with important ways to get in touch with the company. It includes contact information such as phone number, email address, and physical location, along with a contact form for sending messages directly. The page may also feature employee profiles, a map, and other helpful details to make communication easy and convenient for customers.">
+    <meta name="author" content="Kwadwo Adu Nsiah Ahenkan">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-oars.png" alt="white water rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <p>1272 Starlets 91 Rd</p>
+            <p>Accra, Ghana</p>
+            <p>+233 54 722 9292</p>
+            <p>info@wwr.com</p>
+        </section>
+
+        <section class="contact-layout">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.104959852509!2d-0.19191339999999996!3d5.5514554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9085f7383c39%3A0x7c72cdef39372119!2sAccra%20Sports%20Stadium!5e0!3m2!1sen!2sgh!4v1775158443209!5m2!1sen!2sgh"
+              allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form class="contact-form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-row radio-group">
+                    <label>Message Purpose</label>
+                    <div class="radio-options">
+                        <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                        <label for="inquiry">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+
+                <div class="form-row message-row">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+
+                <div class="form-row checkbox-row">
+                    <label for="newsletter">Please subscribe me to monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here To Serve You!</h2>
+
+            <figure>
+                <img src="images/curry.jpg" alt="photo of employee named Curry">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/lebron.jpg" alt="photo of employee named Lebron">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/giannis.jpg" alt="photo of employee named Giannis">
+                <figcaption>Employee Profile</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2026 | White Water Rafting | Kwadwo Adu Nsiah Ahenkan</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="facebook logo">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram logo">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.png" alt="Linkedin logo">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
