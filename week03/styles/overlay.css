@@ -44,7 +44,7 @@ h2 {
 }
 
 footer {
-    position: fixe;
+    position: fixed;
     bottom: 0;
     margin: 1rem;
     border-top: 1px solid #000;

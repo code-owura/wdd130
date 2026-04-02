@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+    <meta name="description" content="Poll Form">
+    <meta name="author" content="Kwadwo Adu Nsiah Ahenkan">
+    <link rel="stylesheet" href="styles/try.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="Chrome">Chrome</option>
+                        <option value="Mozilla Firefox">Mozilla Firefox</option>
+                        <option value="Internet Explorer">Internet Explorer</option>
+                    </select>
+                </div>
+
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+
+                <div class="form-item column1 radio-row">
+                    <label>What is your experience level with HTML?</label>
+                    <div class="radio-options">
+                        <input type="radio" id="beginner" name="experience" value="beginner">
+                        <label for="beginner">Beginner</label>
+
+                        <input type="radio" id="intermediate" name="experience"
+                          value="intermediate">
+                        <label for="intermediate">Intermediate</label>
+
+                        <input type="radio" id="advanced" name="experience" value="advanced">
+                        <label for="advanced">Advanced</label>
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="5"
+                      placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        ©️2026 | HTML Form - User Poll Activity | Kwadwo Adu Nsiah Ahenkan
+    </footer>
+</body>
+
+</html>
