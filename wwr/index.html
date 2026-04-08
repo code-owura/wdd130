@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | White Water Rafting</title>
+    <title>Home Page | White Water Rafting</title>
     <meta name="description"
-      content="Contact White Water Rafting through phone, email, location details, a message form, employee profiles, and a map.">
+      content="Welcome to White Water Rafting. Explore exciting river adventures, sign up for updates, and discover our rafting trips.">
     <meta name="author" content="Kwadwo Adu Nsiah Ahenkan">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -21,21 +21,15 @@
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main class="contact-page">
-        <section class="contact-info">
-            <h1>White Rafting Company</h1>
-            <h2>1272 Starlets 91 Rd</h2>
-            <h2>Accra, Ghana</h2>
-            <h2>+233 54 722 9292</h2>
-            <h2>info@wwr.com</h2>
+    <main class="home-page">
+        <section class="hero">
+            <img src="images/rafting.webp" alt="people rafting through rapids">
+            <h1>Adventure Begins Here</h1>
         </section>
-        <section class="contact-layout">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.104959852509!2d-0.19191339999999996!3d5.5514554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9085f7383c39%3A0x7c72cdef39372119!2sAccra%20Sports%20Stadium!5e0!3m2!1sen!2sgh!4v1775158443209!5m2!1sen!2sgh"
-              allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <form class="contact-form">
+        <section class="newsletter">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form class="newsletter-form">
                 <div class="form-row">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -53,10 +47,12 @@
                             <input type="radio" id="inquiry" name="purpose" value="inquiry">
                             <label for="inquiry">General Inquiry</label>
                         </div>
+
                         <div>
                             <input type="radio" id="reservation" name="purpose" value="reservation">
                             <label for="reservation">Reservation Question</label>
                         </div>
+
                         <div>
                             <input type="radio" id="suggestion" name="purpose" value="suggestion">
                             <label for="suggestion">Website Suggestion</label>
@@ -66,33 +62,41 @@
 
                 <div class="form-row">
                     <label for="message">Message</label>
-                    <textarea id="message" name="message" placeholder="Type here"></textarea>
+                    <textarea id="message" name="message" placeholder="Type here"
+                      required></textarea>
                 </div>
 
                 <div class="checkbox-row">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter-check" name="newsletter-check">
+                    <label for="newsletter-check">Please subscribe me to the monthly
+                        newsletter</label>
                 </div>
 
-                <button type="submit">Get in Touch!</button>
+                <button type="submit">Subscribe</button>
             </form>
         </section>
 
-        <section class="employees">
-            <h2>We Are Here To Serve You!</h2>
-            <figure>
-                <img src="images/curry.jpg" alt="photo of employee named Curry">
-                <figcaption>CEO</figcaption>
-            </figure>
-            <figure>
-                <img src="images/lebron.jpg" alt="photo of employee named Lebron">
-                <figcaption>COO</figcaption>
-            </figure>
-            <figure>
-                <img src="images/giannis.jpg" alt="photo of employee named Giannis">
-                <figcaption>Operations Manager</figcaption>
-            </figure>
+        <section class="cta">
+            <h2>Ready for Your Next River Adventure?</h2>
+            <p>Visit our trips page and discover the rafting experience that is right for you.</p>
+            <a href="trips.html" class="cta-button">Explore Trips</a>
+        </section>
 
+        <section class="home-grid">
+            <div class="grid-item">
+                <img src="images/wwr-history.jpg" alt="rafting team enjoying the river">
+                <h3>Our Purpose</h3>
+                <p>We bring people together through exciting, safe, and memorable rafting adventures
+                    on
+                    beautiful rivers.</p>
+            </div>
+
+            <div class="grid-item">
+                <img src="images/lochsa-river.jpg" alt="rafting trip on scenic river">
+                <h3>What We Offer</h3>
+                <p>We offer guided rafting trips, family adventures, and outdoor experiences for all
+                    levels of rafters.</p>
+            </div>
         </section>
     </main>
     <footer>
